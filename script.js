@@ -297,7 +297,7 @@ class World {
       this.sound = new THREE.Audio(listener);
       const audioLoader = new THREE.AudioLoader();
       audioLoader.load(
-        "https://www.youtube.com/watch?v=x47TgeRJtH0",
+        "reflections-official-audio.mp3",
         buffer => {
           this.sound.setBuffer(buffer);
           this.sound.setLoop(false);
